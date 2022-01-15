@@ -5,7 +5,7 @@ var app = http.createServer(function(request, response){
   if(url == '/') {
     url = '/index.html';
   }
-  if(request.url == '/favicon.ico'){
+  if(url == '/favicon.ico'){
     return response.writeHead(404);
   }
   response.writeHead(200);
