@@ -1,0 +1,10 @@
+http://opentutorials.org:3000/main?id=HTML&page=12
+http는 프로토콜 
+
+opentutorials.org는 호스트(도메인) = 주소
+
+3000은 포트
+
+main은 path = 어떤 디렉토리
+
+id=HTML&page=12은 query string = 서버에 정보 전달. ?로 시작.
